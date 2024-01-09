@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only Tunes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Logo.png">
+</head>
+<body>
+    <div id="toggle">
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()"></button>
+    </div>
+    <div class="container">
+        <h1>Music Player</h1>
+        <div class="content">
+            <aside class="left">
+                <div class="left-container">
+                    <span>Filter by Industry:
+                        <select name="songs" id="industry">
+                            <option value="all">All</option>
+                            <option value="telugu">Telugu</option>
+                            <option value="bol">Hindi</option>
+                            <option value="holly">English</option>
+                            <option value="kolly">Tamil</option>
+                        </select>
+                    </span>
+                    <div class="all-songs">
+                        <h3>All Songs</h3>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="center">
+                <div class="song-box">
+                    <div class="song-img"></div>
+                    <h3>Pranama</h3>
+                    <p>Darling</p>
+                </div>
+                <button class="shuffle-button text-icon-button" onclick="shuffleSongs()">🔀 Shuffle</button>
+                <audio controls id="audio-player" autoplay>
+                    <source src="./audio/Pranama.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+
+                <div class="button-container">
+                    <button class="left-btn text-icon-button">|&#9664;&#9664;</button>
+                    <button class="right-btn text-icon-button">&#9658;&#9658;|</button>
+                </div>
+                <button class="add-to-playlist-button">Add to Playlist</button>
+            </div>
+
+            <aside class="right">
+                <div class="right-container">
+                    <input type="text" placeholder="Enter the playlist name">
+                    <button>Create Playlist</button>
+                    <div class="playlist">
+                        <div class="current-playlist">
+                            <h3>Current Playlist</h3>
+                        </div>
+                        <div class="added-playlist">
+                            <h3>All Playlists</h3>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
