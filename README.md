@@ -47,3 +47,6 @@ The Container can have the following div:
 All-song-div: It can be used to display all the song along with filter option
 Card div: It can be used to show the currently playing show along the various control buttons.
 Playlist div: It can be used to store all playlists and can create new playlist options.
+
+**Live Demo:**
+[Music Player Demo]((https://chandrika-2112.github.io/Music_Player/) (Replace with your live demo link)
