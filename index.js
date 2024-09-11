@@ -16,7 +16,7 @@ const songsJSON = [
     { songTitle: "Dhol Bhaaje", songBy: "Ram-Leela", audio: "./audio/Dhol Baaje.mp3", industry: "Hindi", img:"./images/Ram-Leela.jpg" ,index:12},
 
 
-    { songTitle: "I Wanna Be Yours", songBy: "The Dreamers", audio: "./audio/Wanna be yours.mp3", industry: "English", img:"./images/Wanna_Be_Yours.jpg" ,index:13},
+    { songTitle: "I Wanna Be Yours", songBy: "The Dreamers", audio: "./audio/Wanna be Yours.mp3", industry: "English", img:"./images/Wanna_Be_Yours.jpg" ,index:13},
     { songTitle: "Lover", songBy: "Letters To Juliet", audio: "./audio/Lover.mp3", industry: "English", img:"./images/Lover.jpg" ,index:14},
     { songTitle: "Arcade", songBy: "Duncan Laurence", audio: "./audio/Arcade.mp3", industry: "English", img:"./images/Arcade.jpg" ,index:15},
     { songTitle: "Infinity", songBy: "Blade Runner", audio: "./audio/Infinity.mp3", industry: "English", img:"./images/Infinity.jpg" ,index:16},
